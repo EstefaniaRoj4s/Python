@@ -1,0 +1,18 @@
+meme_dict = {
+    "CRINGE": "Algo excepcionalmente raro o embarazoso",
+    "LOL": "Una respuesta común a algo gracioso",
+    "ROFL": "Una reacción a algo gracioso, similar a LOL",
+    "F": "Se usa para mostrar respeto o lamentar algo",
+    "MOOD": "Expresa que algo refleja cómo te sientes",
+    "SHIPPEAR": "Apoyar o imaginar una relación romántica"
+}
+
+print("Binevenido al diccionario de palabras modernas")
+
+for _ in range(5):
+    word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+    if word in meme_dict:
+        print(meme_dict[word])
+    else:
+        print("No encontramos la palabra, lo siento")
+    
